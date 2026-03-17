@@ -52,6 +52,7 @@ data:
 
     server {
       listen  8080;
+      # Below is replaced by frontend.entrypoint.sh to enable IPv6 listening when IPv6 is supported
       #IPV6_LISTEN_PLACEHOLDER
       server_name localhost;
       server_tokens off;
